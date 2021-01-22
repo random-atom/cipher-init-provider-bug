@@ -1,5 +1,7 @@
 # cipher-init-provider-bug
 
+*Status as on January 22, 2021* - The bug has been accepted and assigned a bug ID: https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8260274
+
 ## Purpose
 
 This project replicates a bug in Cipher.init(int, key) where the highest priority Provider is not used.
